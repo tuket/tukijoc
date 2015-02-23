@@ -1,0 +1,6 @@
+#	The format of roi is:
+img			#	String::img=>		name of the file of the image
+x y			#	(int,int)::(x,y)=>	starting position
+speed		#	(int)::speed=>	horizontal speed
+w h			#	(int,int)::(w,h)=>	width and height
+l			#	int::l=>			starting lifes

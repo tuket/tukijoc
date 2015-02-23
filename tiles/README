@@ -1,0 +1,5 @@
+#	The format of the tiles is:
+
+0-1			#0->non-material | 1->material
+
+			#material is ground, non-mateirial is sky

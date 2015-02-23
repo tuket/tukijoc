@@ -1,0 +1,14 @@
+#	The format of the maps is:
+w h			#(int,int)::(w,h)=>		width and height of the map in tiles
+x y			#(int,int)::(x,y)=>		starting position of Tuki in this map
+wx wy		#(int,int)::(wx,wy)=>	the tile where you win
+
+
+a0 b0 c0 ...		#table of tiles 
+a1 b1 c1 ...		#specifies the material for each tile
+a2 b2 c2 ...		#the integers are specified by the order of the next list
+ .  .  .			#[[int]]::_ _
+ .  .  .
+ .  .  .
+ 
+t0 t1 t2 ...		#[String]::t=>	 list of tile names
